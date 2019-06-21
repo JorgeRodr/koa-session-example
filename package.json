@@ -1,0 +1,30 @@
+{
+  "name": "koa-session-example",
+  "version": "1.0.0",
+  "description": "An example with koa-session for campus boream",
+  "main": "index.js",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "koa": "^2.7.0",
+    "koa-generic-session-file": "^0.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-session": "^5.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js | bunyan -o short",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeRodr/koa-session-example.git"
+  },
+  "author": "JorgeRP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeRodr/koa-session-example/issues"
+  },
+  "homepage": "https://github.com/JorgeRodr/koa-session-example#readme"
+}
